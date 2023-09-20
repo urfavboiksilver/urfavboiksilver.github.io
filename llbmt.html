@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Poppins&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="animation.css">
+</head>
+<body>
+    <div class="transition" id="transition"></div>
+    <div class="opacity" id="opacity"></div>
+    <input type="checkbox" name="" id="check" onclick="addClassToDiv()">
+    <nav>
+    <label class="Logo" onclick="redirect(this)" data-href="index.html"><img src="/photos/Apexnex.svg" alt="logo" class="logo" ></label>
+    <label for="check">
+     <h3>
+            <span>M e n u</span><span><i class="fa-solid fa-bars"></i></span>
+     </h3>
+    </label>
+    </nav>
+    <div class="menu">
+        <div class="menulogo"></div>
+        <div class="items">
+            <br>
+            <h3>Store</h3>
+            <br>
+            <a onclick="redirect(this)" class="menu-button" data-href="index.html"><span>Home</span><span class="icon"><i class="fa-solid fa-house"></i></span></a>
+            <a href="/index.html#whoarewe" class="menu-button"><span>Who are we?</span><span><i class="fa-solid fa-user"></i></span></a>
+
+            <a href="/index.html#whatwelearnt" class="menu-button"><span>Learnt</span><span><i class="fa-solid fa-magnifying-glass"></i></span></a>
+            <a href="/index.html#projects" class="menu-button"><span>Projects</span><span><i class="fa-solid fa-photo-film"></i></span></a>
+            <br>
+            <h3>Socials</h3>
+            <br>
+            <a href="/index.html#latest" class="menu-button"><span>Latest</span><span><i class="fa-brands fa-instagram"></i></span></a>
+            <a href="#" class="menu-button"><span>Contact</span><span><i class="fa-solid fa-comment"></i></span></a>
+        </div>
+        <div class="account"><img src="/photos/Profile Picture.jpg"><h6>Charlotte Emma</h6><span><i class="fa-solid fa-right-from-bracket"></i></span></div>
+    </div>
+    <section class="info about" id="home">
+        <div class="bio-div">
+            <h6>A P E X N E X</h6>
+            <h1>Who are we?</h1>
+            <br>
+            <h6>Name</h6>
+            <h1 class="name">Linn Lett Bhone Myat Thu</h1>
+            <br>
+            <h6>MY ROLE</h6>
+            <h3>Collaborator</h3>
+            <h3>UX / UI</h3>
+            <h3>WEBSITE Design</h3>
+            <br>
+            <h6>Campus</h6>
+            <h3> Year 9 | Indigo</h3>
+            <br>
+            <h6>Year</h6>
+            <h3> 2023 - 2024</h3>
+
+        </div>
+        <div class="bio-div two">
+            <p>It's a pleasure to say that I'm Linn Lett Bhone Myat Thu. I am a 15 years old student studying in Year 9 Indigo at EDUSN. I have some hobbies and one of them is web designing. I really like to design my websites in my free time.
+                <br><br>
+                My biggest hobby is playing games just like the teenagers nowadays.
+                <br><br>
+                One of my proudest accomplishments is being a part of a project known as "apexnex." which we explore the importance of web development, collaborate on projects, and share our knowledge to improve ourselves better than ever.
+                <br><br>
+                This website acts as an opportunity for me to share my experiences, promote my work, and network with other people who share my enthusiasm for web development. As I continue my fascinating adventure into the world of coding and web development, you can browse my projects and ideas. I appreciate you coming, and I hope you find my projects both motivational and educational.</p>
+        </div>
+    </section>
+    <br>
+    <br>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col one">
+                    <h4>Contact Information</h4>
+                    <p>Feel Frees to reach out us any time.We prefer to talk over email,especially since we may be a few time zones aways</p>
+                    <br>
+                    <p>E <i class="fa-solid fa-envelope contact"></i> : <span>headoffice@apexnex.com</span></p>
+                    <p>P <i class="fa-solid fa-phone contact"></i> : <span>09 1234567890</span></p>
+                </div>
+                <div class="footer-col">
+                    <h4>Latest Projects</h4>
+                    <ul>
+                        <li><a href="#">Stoicism</a></li>
+                        <li><a href="#">Solar and Battery system</a></li>
+                        <li><a href="#">Body Fitness</a></li>
+                        <li><a href="#">Busniess Website</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Current avaliability</h4>
+                    <p>We are totaly new to this world but we'll be happy to dicuss new opportunities.Let's get in touch!</p>
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+ 
+    </footer>
+<script src="app.js"></script>
+</body>

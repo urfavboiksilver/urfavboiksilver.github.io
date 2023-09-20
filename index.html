@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Poppins&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="animation.css">
+</head>
+<body>
+    <div class="transition" id="transition"></div>
+    <div class="opacity" id="opacity"></div>
+    <input type="checkbox" name="" id="check" onclick="addClassToDiv()">
+        <nav>
+        <a href="#home"><label class="Logo"><img src="/photos/Apexnex.svg" alt="logo" class="logo"></label></a>
+        <label for="check">
+         <h3>
+                <span>M e n u</span><span><i class="fa-solid fa-bars"></i></span>
+         </h3>
+        </label>
+        </nav>
+        <div class="menu">
+            <div class="menulogo"></div>
+            <div class="items">
+                <br>
+                <h3>Store</h3>
+                <br>
+                <a onclick="redirect(this)" class="menu-button" data-href="index.html"><span>Home</span><span class="icon"><i class="fa-solid fa-house"></i></span></a>
+                <a href="/index.html#whoarewe" class="menu-button"><span>Who are we?</span><span><i class="fa-solid fa-user"></i></span></a>
+
+                <a href="/index.html#whatwelearnt" class="menu-button"><span>Learnt</span><span><i class="fa-solid fa-magnifying-glass"></i></span></a>
+                <a href="/index.html#projects" class="menu-button"><span>Projects</span><span><i class="fa-solid fa-photo-film"></i></span></a>
+                <br>
+                <h3>Socials</h3>
+                <br>
+                <a href="/index.html#latest" class="menu-button"><span>Latest</span><span><i class="fa-brands fa-instagram"></i></span></a>
+                <a href="#" class="menu-button"><span>Contact</span><span><i class="fa-solid fa-comment"></i></span></a>
+            </div>
+            <div class="account"><img src="/photos/Profile Picture.jpg"><h6>Charlotte Emma</h6><span><i class="fa-solid fa-right-from-bracket"></i></span></div>
+        </div>
+        <section class="info" id="home">
+            <div class="texts">
+                <h5>A p e x n e x</h5>
+
+                <h1>Portfolio Website and User Intereface</h1>
+                <h4>ApexNex is your partner in creating captivating portfolio websites. We specialize in blending creativity with technology to help you make a lasting online impression. Join us on your digital journey today!</h4>
+            </div>
+            <h1 class="backgroundtext">designer</h1>
+            <div class="photo"><img src="./photos/R.png"></div>
+        </section>
+        <section class="section">
+
+            <div style="text-align: center; margin-bottom: 20px;width: 20%;"><h2>Show Casing</h2></div>
+            <div class="phones">
+                <div class="parentofphone">
+                    <div class="large-one"><img src="/photos/375925391_729785615856068_8908202385254484683_n.jpg" class="marketimg"><h3 class="products">Iphone 15 Pros</h3></div>
+                </div>
+                <div class="parentofphone two">
+                    <div class="small-one"><img src="/photos/375919573_729784172522879_6095043730220408237_n.jpg" class="marketimg"><h3 class="products">Apple Watches</h3></div>
+                    <div class="middle-one"><img src="/photos/375865003_729785275856102_2362929791888634708_n.jpg" class="marketimg"><h3 class="products">Iphone 15s</h3></div>                   
+                </div>
+                <div class="parentofphone">
+                 <div class="large-two"><img src="/photos/Apple Vision Pro.jfif" class="marketimg"><h3 class="products">Apple Vision Pro</h3></div>
+                 <div class="small-two" id="airpod"><img src="/photos/Air POd Pro.jpg" class="marketimg2"><h3 class="products">Air Pods</h3></div>
+                </div>
+            </div>
+        </section>
+        <section class="section sec-2" id="whoarewe">
+            <div class="text2">
+                <h5>A p e x n e x</h5>
+                <br>
+                <div class="title"><span><h1>Who are We? </h1></span><span><i class="fa-solid fa-user"></i></span>
+            </div>
+            </div>
+            <div class="salefstuffs">
+                <div class="iteminsta" onclick="redirect(this)" data-href='kkykt.html'> 
+                    <img class="teemmembers" src="/photos//teemmembers/kaungkhant.jpg">
+                    <p class="toptext">Year 9 | Indigo</p>
+                    <p class="toptext2">Kaung Khant Ye Kyaw Thu</p>
+                </div>
+                <div class="iteminsta" onclick="redirect(this)" data-href="nmn.html">
+                    <img class="teemmembers" src="/photos//teemmembers/Naing Myint Myat.png">
+                    <p class="toptext">Year 9 | Indigo</p>
+                    <p class="toptext2">Naing Myint Myat</p>
+                </div>
+                <div class="iteminsta" onclick="redirect(this)" data-href="llbmt.html">
+                    <img class="teemmembers" src="/photos//teemmembers/Lin Let Bhone Myat Thu.png">
+                    <p class="toptext">Year 9 | Indigo</p>
+                    <p class="toptext2">Lin Let Bhone Myat Thu</p>
+                </div>
+            </div>
+        <section class="section sec-2" id="whatwelearnt">
+            <div class="text2">
+                <h5>A p e x n e x</h5>
+                <br>
+                <div class="title"><span><h1>What We Have Learnt </h1></span><span><i class="fa-solid fa-magnifying-glass"></i></span></div>
+            </div>
+
+            <div class="salefstuffs">
+                <div class="item one" onclick="redirect(this)" data-href="html.html">
+                    <img class="subjects" src="/photos/HTML5_Badge.svg.png">
+                    <p class="subjectname">HTML</p>
+                </div>
+                <div class="item two" onclick="redirect(this)" data-href="css.html">
+                    <img class="subjects" src="/photos/css.webp">
+                    <p class="subjectname">CSS</p>
+                </div>
+            </div>
+            <div class="salefstuffs">
+                <div class="item one" onclick="redirect(this)" data-href="javascript.html">
+                    <img class="subjects" src="/photos/JavaScript-logo.png">
+                    <p class="subjectname">JAVA SCRIPT</p>
+                </div>
+                <div class="item two" onclick="redirect(this)" data-href="bootstrat.html">
+                    <img class="subjects" src="/photos/bootstrap-logo.svg">
+                    <p class="subjectname">BOOTSTRAP</p>
+                </div>
+            </div>
+        </section>
+        <section class="section sec-2" id="projects">
+            <div class="text2">
+                <h5>A p e x n e x</h5>
+                <br>
+                <div class="title"><span><h1>Personal Projects</h1></span><span><i class="fa-solid fa-photo-film"></i></span></div>
+            </div>
+
+            <div class="salefstuffs">
+                <div class="item one">
+                    <img class="subjects" src="/photos/artsound.png ">
+                    <p class="subjectname">Art Sound</p>
+                    <p class="subjectname sub">Year | 2022 - 2023</p>
+                </div>
+
+        </section>
+        <section class="section sec-2" id="latest">
+            <div class="text2">
+                <h5>A p e x n e x</h5>
+                <br>
+                <div class="title"><span><h1>Latest From Our Instagram </h1></span><span><i class="fa-brands fa-instagram"></i></span></div>
+            </div>
+            <div class="salefstuffs">
+                <div class="iteminsta insta">
+                    <i class="fa-brands fa-instagram"></i>
+                    <p class="subjectname insta">Coming Soon</p>
+                </div>
+                <div class="iteminsta insta">
+                    <i class="fa-brands fa-instagram"></i>
+                    <p class="subjectname insta">Coming Soon</p>
+                </div>
+                <div class="iteminsta insta">
+                    <i class="fa-brands fa-instagram"></i>
+                    <p class="subjectname insta">Coming Soon</p>
+                </div>
+            </div>
+        </section>
+            <div class="needdesignerpart">
+                <h3>Need Designers?</h3>
+                <a onclick="redirect(this)" class="word fancy" data-href="contact.html">
+                    <span class="letter">L</span>
+                    <span class="letter">e</span>
+                    <span class="letter">t</span>
+                    <span class="letter">'</span>
+                    <span class="letter">s</span>
+                    <span class="letter"> </span>
+                    <span class="letter">W</span>
+                    <span class="letter">o</span>
+                    <span class="letter">r</span>
+                    <span class="letter">k</span>
+                    <span class="letter"> </span>
+                    <span class="letter">T</span>
+                    <span class="letter">o</span>
+                    <span class="letter">g</span>
+                    <span class="letter">e</span>
+                    <span class="letter">t</span>
+                    <span class="letter">h</span>
+                    <span class="letter">e</span>
+                    <span class="letter">r</span>
+                    <span class="letter"><i class="fa-solid fa-arrow-right"></i></span></a>
+            </div>
+
+            <footer class="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="footer-col one">
+                            <h4>Contact Information</h4>
+                            <p>Feel Frees to reach out us any time.We prefer to talk over email,especially since we may be a few time zones aways</p>
+                            <br>
+                            <p>E <i class="fa-solid fa-envelope contact"></i> : <span>headoffice@apexnex.com</span></p>
+                            <p>P <i class="fa-solid fa-phone contact"></i> : <span>09 1234567890</span></p>
+                        </div>
+                        <div class="footer-col">
+                            <h4>Latest Projects</h4>
+                            <ul>
+                                <li><a href="#">Artsounds</a></li>
+                                <li><a href="#">Hydroelectric </a></li>
+                                <li><a href="#">Hotel Models</a></li>
+                                <li><a href="#">Research</a></li>
+                                <li><a href="#">Social Medias</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-col">
+                            <h4>Current avaliability</h4>
+                            <p>We are totaly new to this world but we'll be happy to dicuss new opportunities.Let's get in touch!</p>
+                        </div>
+                        <div class="footer-col">
+                            <h4>follow us</h4>
+                            <div class="social-links">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+         
+            </footer>
+        <script src="app.js"></script>
+</body>
+</html>

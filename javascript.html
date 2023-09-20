@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Poppins&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="animation.css">
+</head>
+<body>
+    <div class="transition" id="transition"></div>
+    <div class="opacity" id="opacity"></div>
+    <input type="checkbox" name="" id="check" onclick="addClassToDiv()">
+    <nav>
+    <label class="Logo" onclick="redirect(this)" data-href="index.html"><img src="/photos/Apexnex.svg" alt="logo" class="logo" ></label>
+    <label for="check">
+     <h3>
+            <span>M e n u</span><span><i class="fa-solid fa-bars"></i></span>
+     </h3>
+    </label>
+    </nav>
+    <div class="menu">
+        <div class="menulogo"></div>
+        <div class="items">
+            <br>
+            <h3>Store</h3>
+            <br>
+            <a onclick="redirect(this)" class="menu-button" data-href="index.html"><span>Home</span><span class="icon"><i class="fa-solid fa-house"></i></span></a>
+            <a href="/index.html#whoarewe" class="menu-button"><span>Who are we?</span><span><i class="fa-solid fa-user"></i></span></a>
+
+            <a href="/index.html#whatwelearnt" class="menu-button"><span>Learnt</span><span><i class="fa-solid fa-magnifying-glass"></i></span></a>
+            <a href="/index.html#projects" class="menu-button"><span>Projects</span><span><i class="fa-solid fa-photo-film"></i></span></a>
+            <br>
+            <h3>Socials</h3>
+            <br>
+            <a href="/index.html#latest" class="menu-button"><span>Latest</span><span><i class="fa-brands fa-instagram"></i></span></a>
+            <a href="#" class="menu-button"><span>Contact</span><span><i class="fa-solid fa-comment"></i></span></a>
+        </div>
+        <div class="account"><img src="/photos/Profile Picture.jpg"><h6>Charlotte Emma</h6><span><i class="fa-solid fa-right-from-bracket"></i></span></div>
+    </div>
+    <section class="info about" id="home">
+        <div class="bio-div">
+
+            <img src="/photos/JavaScript-logo.png" class="subjects">
+
+        </div>
+        <div class="bio-div two">
+            <p>JavaScript, often abbreviated as JS, is a dynamic, versatile, and widely-used programming language that has revolutionized web development. Originally introduced by Netscape in the mid-1990s, JavaScript has since become an essential part of the web ecosystem. Unlike its namesake Java, JavaScript is primarily employed for front-end web development, enabling the creation of interactive and engaging web applications.
+                <br>
+                <br>
+                One of JavaScript's key strengths lies in its ability to run directly in web browsers, allowing developers to manipulate the Document Object Model (DOM) of a web page in real-time. This capability empowers developers to respond to user interactions, update content dynamically, and create responsive, feature-rich web applications. JavaScript's ubiquity in modern web development is further enhanced by its compatibility with various frameworks and libraries, such as React, Angular, and Vue.js, which simplify and accelerate the development process.
+                <br>
+                <br>
+                JavaScript is an event-driven language, meaning it can listen for and respond to user actions, such as clicks, keystrokes, and mouse movements. Its asynchronous nature allows for non-blocking operations, facilitating the creation of responsive and performant web applications. Furthermore, JavaScript is not limited to the client-side; it can also be used on the server-side through platforms like Node.js, offering a seamless full-stack development experience.
+                <br>
+                <br>
+                In summary, JavaScript is a vital tool in web development, enabling developers to create dynamic, interactive, and user-friendly web applications. Its versatility, extensive ecosystem, and constant evolution make it a must-learn language for anyone looking to excel in the field of web development.
+        </div>
+    </section>
+
+    <section class="section image-html">
+        <div class="text-html"><p>JavaScript is a versatile and widely-used programming language that primarily runs in web browsers, allowing developers to enhance web pages with interactive and dynamic features, such as animations, form validation, and real-time updates, ultimately creating a more engaging and user-friendly online experience.</p></div>
+        <div class="photo-html"><img src="/photos/javascript.png"></div>
+    </section>
+
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col one">
+                    <h4>Contact Information</h4>
+                    <p>Feel Frees to reach out us any time.We prefer to talk over email,especially since we may be a few time zones aways</p>
+                    <br>
+                    <p>E <i class="fa-solid fa-envelope contact"></i> : <span>headoffice@apexnex.com</span></p>
+                    <p>P <i class="fa-solid fa-phone contact"></i> : <span>09 1234567890</span></p>
+                </div>
+                <div class="footer-col">
+                    <h4>Latest Projects</h4>
+                    <ul>
+                        <li><a href="#">Artsounds</a></li>
+                        <li><a href="#">Hydroelectric </a></li>
+                        <li><a href="#">Hotel Models</a></li>
+                        <li><a href="#">Research</a></li>
+                        <li><a href="#">Social Medias</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Current avaliability</h4>
+                    <p>We are totaly new to this world but we'll be happy to dicuss new opportunities.Let's get in touch!</p>
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+ 
+    </footer>
+<script src="app.js"></script>
+</body>

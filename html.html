@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=Poppins&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="animation.css">
+</head>
+<body>
+    <div class="transition" id="transition"></div>
+    <div class="opacity" id="opacity"></div>
+    <input type="checkbox" name="" id="check" onclick="addClassToDiv()">
+    <nav>
+    <label class="Logo" onclick="redirect(this)" data-href="index.html"><img src="/photos/Apexnex.svg" alt="logo" class="logo" ></label>
+    <label for="check">
+     <h3>
+            <span>M e n u</span><span><i class="fa-solid fa-bars"></i></span>
+     </h3>
+    </label>
+    </nav>
+    <div class="menu">
+        <div class="menulogo"></div>
+        <div class="items">
+            <br>
+            <h3>Store</h3>
+            <br>
+            <a onclick="redirect(this)" class="menu-button" data-href="index.html"><span>Home</span><span class="icon"><i class="fa-solid fa-house"></i></span></a>
+            <a href="/index.html#whoarewe" class="menu-button"><span>Who are we?</span><span><i class="fa-solid fa-user"></i></span></a>
+
+            <a href="/index.html#whatwelearnt" class="menu-button"><span>Learnt</span><span><i class="fa-solid fa-magnifying-glass"></i></span></a>
+            <a href="/index.html#projects" class="menu-button"><span>Projects</span><span><i class="fa-solid fa-photo-film"></i></span></a>
+            <br>
+            <h3>Socials</h3>
+            <br>
+            <a href="/index.html#latest" class="menu-button"><span>Latest</span><span><i class="fa-brands fa-instagram"></i></span></a>
+            <a href="#" class="menu-button"><span>Contact</span><span><i class="fa-solid fa-comment"></i></span></a>
+        </div>
+        <div class="account"><img src="/photos/Profile Picture.jpg"><h6>Charlotte Emma</h6><span><i class="fa-solid fa-right-from-bracket"></i></span></div>
+    </div>
+    <section class="info about" id="home">
+        <div class="bio-div">
+
+            <img src="/photos/HTML5_Badge.svg.png" class="subjects">
+
+        </div>
+        <div class="bio-div two">
+            <p>HTML 4, released in 1997, played a pivotal role in shaping the landscape of web development during its time. This version of HTML brought about several key improvements and features that transformed the way websites were created and displayed.
+                <br>
+                <br>
+                One of the notable advancements in HTML 4 was its enhanced support for structured documents. It introduced new tags for creating well-organized content, making it easier for developers to structure web pages logically.
+                <br>
+                <br>
+                HTML 4 also introduced the concept of frames, which allowed developers to divide a web page into multiple independent sections. This feature enabled more complex page layouts and interactive content, although it is now largely obsolete in modern web design due to usability and accessibility concerns.
+                <br>
+                <br>
+                Another significant development in HTML 4 was the improvement in form handling. It introduced elements and attributes that enabled the creation of interactive web applications and forms for collecting user input.
+                <br>
+                <br>
+                Overall, HTML 4 was a crucial step forward in web development, introducing structural improvements, frames for layout control, and enhanced form capabilities. While subsequent versions of HTML have emerged, HTML 4's impact on web development history remains undeniable.</p>
+        </div>
+    </section>
+
+    <section class="section image-html">
+        <div class="text-html"><p>HTML, which stands for HyperText Markup Language, is the standard markup language used to create and structure content on the World Wide Web. It consists of various elements and tags that define the structure, layout, and content of a web page. These elements include headings, paragraphs, links, images, and more, allowing web developers to design and display information on websites.</p></div>
+        <div class="photo-html"><img src="/photos/Html/Apex Nex.png"></div>
+    </section>
+    
+    <section class="section image-html">
+        <div class="photo-html"><img src="/photos/Html/Art Sound.png"></div>
+        <div class="text-html"><p>HTML is the backbone of the internet, serving as the language that enables web browsers to interpret and display web content. It uses a system of tags and attributes to format text, add multimedia elements, create hyperlinks, and organize information into a cohesive and user-friendly format. Learning HTML is a fundamental step for anyone looking to build and maintain websites or explore the world of web development.</p></div>
+
+    </section>
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col one">
+                    <h4>Contact Information</h4>
+                    <p>Feel Frees to reach out us any time.We prefer to talk over email,especially since we may be a few time zones aways</p>
+                    <br>
+                    <p>E <i class="fa-solid fa-envelope contact"></i> : <span>headoffice@apexnex.com</span></p>
+                    <p>P <i class="fa-solid fa-phone contact"></i> : <span>09 1234567890</span></p>
+                </div>
+                <div class="footer-col">
+                    <h4>Latest Projects</h4>
+                    <ul>
+                        <li><a href="#">Artsounds</a></li>
+                        <li><a href="#">Hydroelectric </a></li>
+                        <li><a href="#">Hotel Models</a></li>
+                        <li><a href="#">Research</a></li>
+                        <li><a href="#">Social Medias</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Current avaliability</h4>
+                    <p>We are totaly new to this world but we'll be happy to dicuss new opportunities.Let's get in touch!</p>
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+ 
+    </footer>
+<script src="app.js"></script>
+</body>
